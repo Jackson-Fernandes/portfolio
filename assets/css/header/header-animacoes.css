@@ -1,0 +1,11 @@
+.cabecalho__container-secundario:nth-child(3):hover > .cabecalho__imagem{
+
+    transition: all 300ms;
+    transform: scaleX(1)
+}
+
+.cabecalho__container-secundario:nth-child(1):hover > .cabecalho__imagem{
+
+    transition: all 300ms;
+    transform: scaleX(-1)
+}

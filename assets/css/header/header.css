@@ -1,0 +1,49 @@
+.cabecalho{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+}
+
+.cabecalho__container-secundario{
+
+    width: 10%;
+}
+
+.cabecalho__container-secundario:nth-child(3) > .cabecalho__imagem{
+
+    transform: scaleX(-1);
+}
+
+.cabecalho__titulo{
+
+    font-weight: bold;
+    font-size: 4vw;
+    font-style: italic;
+    text-align: center;
+}
+
+.cabecalho__imagem{
+
+    transition: all 150ms;
+    width: 100%;
+}
+
+.cabecalho__container-principal{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 2;
+}
+
+.cabecalho__gitHub{
+
+    width: 10vw;
+}
+
+.cabecalho__gitHub > img{
+
+    width: 100%;
+}
